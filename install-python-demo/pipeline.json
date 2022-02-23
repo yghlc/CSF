@@ -1,0 +1,11 @@
+{
+    "pipeline":[
+        "SETSM_GE01_20140511_for_test_CSF_ground.las",
+        {
+            "type":"writers.gdal",
+            "filename":"SETSM_GE01_20140511_for_test_CSF_ground.tif",
+            "resolution":2.0,
+            "output_type":"max"
+        }
+    ]
+}
